@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                       service.startService();
                     }
                 }, 
-                child: Icon( Icons.mobile_off_sharp )
+                child: const Icon( Icons.mobile_off_sharp )
               ),
             ),
           ],

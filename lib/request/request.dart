@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<String> httpConnetPost( String lat, String lng, Map<String,dynamic> address, String message, String pasos ) async {
-  Uri url = Uri.parse( 'https://ihc-server.onrender.com' );
+  Uri url = Uri.parse( 'https://ihc-back.onrender.com' );
   // Uri url = Uri.parse( 'http://192.168.1.2:4000' );
   var response = await http.post(url, body: {
     'message': message,
